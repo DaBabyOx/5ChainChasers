@@ -20,13 +20,14 @@ To learn more before you start working with `hello`, see the following documenta
 
 First thing you have to do to start working on your project right away, you might want to try the following commands:
 
+## Backend Phase:
 ```bash
 cd hello/
 
 ### You have to start the backend engine to be able to deploy the canisters by commands:
 dfx start
 
-### After that deploy it:
+### After that deploy it (* remember to always redeploy whenever you make a changes in your motoko file!):
 dfx deploy
 
 ### Then look your terminal to see the url of your local frontend & backend web page
@@ -35,6 +36,19 @@ dfx deploy
 dfx help
 dfx canister --help
 ```
+
+## Frontend Phase
+```
+### change directory to front_end by commands
+cd src/hello_frontend -> output will be "root@zeddin:~/icp2024/hello/src/hello_frontend#"
+
+### starting with installation of all the dependencies (always to do that after you clone these project):
+npm install
+
+### then run it by
+npm run start
+```
+
 
 ## Running the project locally
 
