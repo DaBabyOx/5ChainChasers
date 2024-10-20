@@ -16,6 +16,11 @@ Welcome to your new `hello` project and to the Internet Computer development com
 ### Attention!, You have to change your powershell into Wsl BEFORE CLONE THE PROJECT by commands:
 ```bash
 wsl
+
+### Then:
+git clone https://github.com/ezzeddinp/web3-boilerplate
+
+
 ```
 
 ## *These project already added:
