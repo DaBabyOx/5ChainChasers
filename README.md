@@ -1,7 +1,7 @@
 # Web3 with Internet Computer - Boilerplate
-## Language that were use:
-### - Frontend = ReactJS -> Vite
-### - Backend = Motoko -> Canisters (Smart Contracts)
+### Language that were use:
+#### - Frontend = ReactJS -> Vite
+#### - Backend = Motoko -> Canisters (Smart Contracts)
 
 
 
