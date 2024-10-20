@@ -1,6 +1,15 @@
 # `hello`
 
+# Web3 with Internet Computer - Boilerplate
+## Language that were use:
+### - Frontend = ReactJS -> Vite
+### - Backend = Motoko -> Canisters (Smart Contracts)
+
+
 Welcome to your new `hello` project and to the Internet Computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
+
+## *These project already added:
+### - Tailwindcss (UI)
 
 To get started, you might want to explore the project directory structure and the default configuration file. Working with this project in your development environment will not affect any production deployment or identity tokens.
 
@@ -11,17 +20,27 @@ To learn more before you start working with `hello`, see the following documenta
 - [Motoko Programming Language Guide](https://internetcomputer.org/docs/current/motoko/main/motoko)
 - [Motoko Language Quick Reference](https://internetcomputer.org/docs/current/motoko/main/language-manual)
 
-If you want to start working on your project right away, you might want to try the following commands:
+First thing you have to do to start working on your project right away, you might want to try the following commands:
 
 ```bash
 cd hello/
+
+### You have to start the backend engine to be able to deploy the canisters by commands:
+dfx start
+
+### After that deploy it:
+dfx deploy
+
+### Then look your terminal to see the url of your local frontend & backend web page
+
+### Options:
 dfx help
 dfx canister --help
 ```
 
 ## Running the project locally
 
-If you want to test your project locally, you can use the following commands:
+If you want to test your project locally, you can use the following commands (Actually these works for hello_backend but, it still works even if only in hello directory):
 
 ```bash
 # Starts the replica, running in the background
@@ -30,6 +49,8 @@ dfx start --background
 # Deploys your canisters to the replica and generates your candid interface
 dfx deploy
 ```
+
+
 
 Once the job completes, your application will be available at `http://localhost:4943?canisterId={asset_canister_id}`.
 
