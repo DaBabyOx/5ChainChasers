@@ -50,6 +50,7 @@ dfx canister --help
 ```
 
 ## Frontend Phase
+#### Make sure you install again your npm in Wsl
 ```bash
 ### change directory to front_end by commands
 cd src/hello_frontend -> output will be "root@zeddin:~/icp2024/hello/src/hello_frontend#"
@@ -58,7 +59,7 @@ cd src/hello_frontend -> output will be "root@zeddin:~/icp2024/hello/src/hello_f
 npm install
 
 ### then run it by
-npm run start
+npm start
 ```
 
 
