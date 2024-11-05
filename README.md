@@ -1,4 +1,4 @@
-# 5 Chain Chaser team - Social FI ( PASTI MENANG LAH)
+# 5 Chain Chaser team - Social FI
 ### Language that were use:
 #### - Frontend = ReactJS -> Vite
 #### - Backend = Motoko -> Canisters (Smart Contracts)
@@ -38,7 +38,7 @@ dfx canister --help
 #### Make sure you install again your npm in Wsl
 ```bash
 ### change directory to front_end by commands
-cd src/hello_frontend -> output will be "root@zeddin:~/icp2024/hello/src/hello_frontend#"
+cd src/hello_frontend -> output will be "root@anomali:~/icp2024/hello/src/hello_frontend#"
 
 ### starting with installation of all the dependencies (always to do that after you clone these project):
 npm install
