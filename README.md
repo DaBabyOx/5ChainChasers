@@ -1,12 +1,27 @@
-# `hello`
-
 # Web3 with Internet Computer - Boilerplate
-## Language that were use:
-### - Frontend = ReactJS -> Vite
-### - Backend = Motoko -> Canisters (Smart Contracts)
+### Language that were use:
+#### - Frontend = ReactJS -> Vite
+#### - Backend = Motoko -> Canisters (Smart Contracts)
+
+
+
 
 
 Welcome to your new `hello` project and to the Internet Computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
+
+
+
+
+
+### Attention!, You have to change your powershell into Wsl BEFORE CLONE THE PROJECT by commands:
+```bash
+wsl
+
+### Then:
+git clone https://github.com/ezzeddinp/web3-boilerplate
+
+
+```
 
 ## *These project already added:
 ### - Tailwindcss (UI)
@@ -22,13 +37,14 @@ To learn more before you start working with `hello`, see the following documenta
 
 First thing you have to do to start working on your project right away, you might want to try the following commands:
 
+## Backend Phase:
 ```bash
 cd hello/
 
 ### You have to start the backend engine to be able to deploy the canisters by commands:
 dfx start
 
-### After that deploy it:
+### After that deploy it (* remember to always redeploy whenever you make a changes in your motoko file!):
 dfx deploy
 
 ### Then look your terminal to see the url of your local frontend & backend web page
@@ -37,6 +53,20 @@ dfx deploy
 dfx help
 dfx canister --help
 ```
+
+## Frontend Phase
+#### Make sure you install again your npm in Wsl
+```bash
+### change directory to front_end by commands
+cd src/hello_frontend -> output will be "root@zeddin:~/icp2024/hello/src/hello_frontend#"
+
+### starting with installation of all the dependencies (always to do that after you clone these project):
+npm install
+
+### then run it by
+npm start
+```
+
 
 ## Running the project locally
 
