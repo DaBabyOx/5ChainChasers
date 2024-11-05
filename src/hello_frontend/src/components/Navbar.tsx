@@ -36,7 +36,7 @@ const Navbar = () => {
                 onClick={() => navigate('/collections')}
                 className="p-1 text-sm font-normal bg-neutral-900/50 hover:bg-neutral-950/50 rounded-full py-1 px-3 text-white/70 hover:text-white transition-all duration-300"
               >
-                <p>Collections</p>
+                <p>Collection</p>
               </button>
             </div>
           </div>
