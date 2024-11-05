@@ -1,4 +1,4 @@
-# Web3 with Internet Computer - Boilerplate
+# 5 Chain Chaser team - Social FI ( PASTI MENANG LAH)
 ### Language that were use:
 #### - Frontend = ReactJS -> Vite
 #### - Backend = Motoko -> Canisters (Smart Contracts)
@@ -18,7 +18,7 @@ Welcome to your new `hello` project and to the Internet Computer development com
 wsl
 
 ### Then:
-git clone https://github.com/ezzeddinp/web3-boilerplate
+git clone https://github.com/anomali/web3-boilerplate
 
 
 ```
