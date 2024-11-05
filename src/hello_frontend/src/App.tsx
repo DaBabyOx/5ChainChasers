@@ -9,6 +9,7 @@ import CategoriesPage from './pages/category/page';
 import CategoryDetails from './pages/category/[dynamic]/page';
 import ImageDetail from './pages/category/[dynamic]/image/[detail-photo]/page';
 import ImageGalleryPage from './pages/collections/page';
+import UltimateErrorPage from './components/Payment';
 
 const App: React.FC = () => {
   return (
@@ -22,6 +23,7 @@ const App: React.FC = () => {
         <Route path="/category/:categoryName" element={<CategoryDetails />} />
         <Route path="/image/:id" element={<ImageDetail />} />
         <Route path="/collections" element={<ImageGalleryPage />} />
+        <Route path="/payment" element={<UltimateErrorPage />} />
       </Routes>
     </Router>
   );

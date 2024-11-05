@@ -95,9 +95,9 @@ const HomePage: React.FC = () => {
 
       <Navbar />
 
-      <div className="container mx-auto p-4">
-        <h1 className="text-2xl font-bold text-center mb-8">
-          Welcome to Your Pinterest-like Dashboard
+      <div className="container mx-auto mt-36 p-4">
+        <h1 className="text-4xl text-Center font-extrabold mb-10">
+          Welcome User
         </h1>
 
         <div className="space-y-10">
